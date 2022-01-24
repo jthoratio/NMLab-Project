@@ -5,7 +5,7 @@ import os
 import glob
 
 
-path = os.getcwd() + '\\Training_Data_Master'
+path = os.getcwd() + '/Training_Data_Master'
 feature_vector_set = []
 maxi = 0
 

@@ -5,12 +5,12 @@ import os
 import glob
 
 
-path = os.getcwd() + '\\Attack_Data_Master'
+path = os.getcwd() + '/Attack_Data_Master'
 feature_vector_set = []
 maxi = 0
 
 for folder in os.listdir(path):
-	path_to_folder = os.getcwd() + '\\Attack_Data_Master' + '\\' + folder
+	path_to_folder = os.getcwd() + '/Attack_Data_Master' + '/' + folder
 	for filename in glob.glob(os.path.join(path_to_folder, '*.txt')):
 
 	    fin = open(filename, 'r')
