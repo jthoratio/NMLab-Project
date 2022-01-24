@@ -15,6 +15,12 @@
 - Docker
 - inotify-tools
 
+## Setup
+```
+pip3 install numpy
+pip3 install scipy
+```
+
 ## How to Run
 - Set to root
 ```
