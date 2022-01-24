@@ -102,7 +102,7 @@ for i in range(len(ADFA_data)):
         ADFA_x.append(ADFA_data[i])
         ADFA_y.append(label[i])
     else:
-        print('ADFA_data[i] deleted')
+        print('ADFA_data', i, 'deleted')
 ADFA_x = np.array(ADFA_x)
 ADFA_y = np.array(ADFA_y)
 print(np.shape(ADFA_x))

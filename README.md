@@ -77,6 +77,7 @@ python3 attack_feature_extractio.py
 - Run
 
 ### Run on Local Machine
+- Modify code to show plot
 ```
 python3 analysis.py
 ```
