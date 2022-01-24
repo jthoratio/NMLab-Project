@@ -71,7 +71,7 @@ python3 training_feature_extraction.py
 python3 attack_feature_extractio.py
 ```
 
-### Data Analysis by Colab
+### Data Analysis by Colab (Recommended)
 - Upload analysis.py to Google Colab
 - Modify code to enable gdown or upload data by yourself
 - Run
